@@ -8,7 +8,7 @@ genai.configure(api_key=api_key)
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 # 2. இணையப் பக்கத்தின் வடிவமைப்பு
-st.title("எனது AI உதவியாளர் 🤖")
+st.title("YASEENIS AI 🤖")
 
 # 3. பழைய உரையாடல்களை சேமிக்க (Memory)
 if "messages" not in st.session_state:
