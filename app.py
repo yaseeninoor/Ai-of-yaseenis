@@ -5,7 +5,8 @@ import os
 # 1. API key-ஐ அமைத்தல்
 api_key = os.environ.get("GEMINI_API_KEY")
 genai.configure(api_key=api_key)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('models/gemini-1.5-flash')
+
 
 # 2. இணையப் பக்கத்தின் வடிவமைப்பு
 st.title("YASEENIS AI 🤖")
